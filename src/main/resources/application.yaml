@@ -1,0 +1,8 @@
+logging:
+  level:
+    root: INFO
+  file.name: logs/application-debug.log
+  pattern:
+    file: "%d %-5level [%thread] %logger : %msg%n"
+
+name: live-spring-boot-demo
